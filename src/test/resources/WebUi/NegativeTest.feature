@@ -1,5 +1,5 @@
 @WebUi-negative
-Feature: test Negative
+Feature: Negative test
   @WebUi-negative1
   Scenario: User choose the item and purchase it
     Given user is on home page
