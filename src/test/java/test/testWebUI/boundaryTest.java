@@ -83,9 +83,10 @@ public class boundaryTest extends BaseTest {
         driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div[3]/div[1]/div[3]/ol/li[1]/div/a/span/span/img")).click();
     }
 
-    @And("user input quantity with: {string}")
-    public void userInputQuantityWith(String qty) {
+     @And("user input quantity with: {string}")
+    public void userInputQuantityWith(String qty) throws InterruptedException {
         driver.findElement(By.id("qty")).sendKeys(qty);
+        Thread.sleep(500);
         driver.findElement(By.xpath("//*[@id=\"option-label-size-143-item-172\"]")).click();
         driver.findElement(By.id("option-label-color-93-item-50")).click();
     }
