@@ -1,5 +1,5 @@
 @WebUi-boundary
-Feature: test Batas
+Feature: Boundary test
   @WebUi-boundary1
   Scenario: the user made an appointment and has not logged in
     Given user is on home page to make appointment
