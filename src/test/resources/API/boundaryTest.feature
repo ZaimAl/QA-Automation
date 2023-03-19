@@ -1,5 +1,5 @@
 @API-boundary
-Feature: test Batas
+Feature: Boundary test
   @API-boundary1
   Scenario: user GET pokedex generation 1, 2, and 3 in respond
     Given user have an API to access all pokedex "https://pokeapi.co/api/v2/pokemon"
