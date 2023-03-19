@@ -1,5 +1,5 @@
 @API-positive
-Feature: positive test
+Feature: Positive test
   @API-positive1
   Scenario: user GET list from reqres in page one and two
     Given user have an API to access "https://reqres.in/api/users?page="
