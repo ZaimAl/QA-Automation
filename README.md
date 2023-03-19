@@ -13,7 +13,7 @@
 If you find any bugs or have feature requests, please submit an issue or pull request. Contributions are welcome and appreciated.
 
 ## Credits
-This project was built using the following resources: Selenium WebDriver, Java, Gradle, and Cucumber. 
+This project was built using the following resources: Selenium WebDriver, Java, Gradle, Rest-Assured and Cucumber. 
 Thanks also to some of the web UI used: https://www.saucedemo.com/, https://katalon-demo-cura.herokuapp.com/, and https://magento.softwaretestingboard.com/ 
 and API used: "https://pokeapi.co/", "https://reqres.in/", and "https://gorest.co.in/"
 
